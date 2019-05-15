@@ -6,7 +6,7 @@ export default () => (
         <div className="loading-content">
             <div align="center">
                 <img src="/loading.gif" className="loading" alt="loading" />
-                <h2>Loading...</h2>
+                <h2>Loading</h2>
             </div>
         </div>
     </div>

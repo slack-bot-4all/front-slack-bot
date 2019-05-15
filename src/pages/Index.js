@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'antd'
 
 class Index extends React.Component {
 
@@ -10,8 +11,7 @@ class Index extends React.Component {
         return (
             <div align="center">
                 <h2>Slack BOT</h2>
-                <div style={{ height: 2000 }}></div>
-                <button onClick={this.props.toggleLoading}>Loading</button>
+                <Button onClick={this.props.toggleLoading}>Loading</Button>
             </div>
         )
     }

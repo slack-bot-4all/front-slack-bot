@@ -2,6 +2,7 @@
   "name": "front-slack-bot",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "dependencies": {
     "antd": "^3.16.6",
     "axios": "^0.18.0",
@@ -13,6 +14,7 @@
     "prop-types": "^15.7.2",
     "query-string": "^6.5.0",
     "react": "^16.8.6",
+    "react-animated-css": "^1.2.0",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
     "react-router": "^5.0.0",
