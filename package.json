@@ -22,7 +22,8 @@
     "react-scripts": "2.1.1",
     "recharts": "^1.5.0",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "yarn": "^1.16.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -34,22 +35,16 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
     "babel-plugin-import": "^1.7.0",
     "less-vars-to-js": "^1.2.1",
     "react-app-rewire-less": "^2.1.1",
     "react-app-rewired": "^1.5.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
